@@ -1,0 +1,22 @@
+.main-banner {
+    background: url("../images/index1.jpg") center center no-repeat;
+    background-size: cover;
+}
+.h-480-md-870 {
+    height: 480px;
+    @include media-breakpoint-up(md) {
+        height: 870px;
+    }
+}
+
+.img-index-5 {
+    padding-bottom: 200%;
+}
+
+.img-index-9 {
+    padding-bottom: 150%;
+}
+
+.h-600 {
+    height: 600px;
+}
