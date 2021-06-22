@@ -1,0 +1,6 @@
+.margin-2-md-0 {
+    margin: 2px 0;
+    @include media-breakpoint-up(md) {
+        margin-bottom: 0;
+    }
+}
