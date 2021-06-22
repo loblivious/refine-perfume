@@ -16801,6 +16801,16 @@ ul {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.img-product-1 {
+  padding-bottom: 150%;
+}
+
+@media (min-width: 768px) {
+  .img-product-1 {
+    padding-bottom: 63%;
+  }
+}
+
 .margin-2-md-0 {
   margin: 2px 0;
 }
@@ -16867,5 +16877,11 @@ body {
 
 .img-index-6 {
   background-position: center 100%;
+}
+
+@media (min-width: 768px) {
+  .position-md-absolute {
+    position: absolute;
+  }
 }
 /*# sourceMappingURL=all.css.map */

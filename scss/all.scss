@@ -53,3 +53,9 @@ body {
 .img-index-6 {
     background-position: center 100%;
 }
+
+.position-md-absolute {
+    @include media-breakpoint-up(md) {
+        position: absolute;
+    }
+}
