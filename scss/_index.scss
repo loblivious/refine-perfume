@@ -15,8 +15,36 @@
 
 .img-index-9 {
     padding-bottom: 150%;
+    @include media-breakpoint-up(md) {
+        padding-bottom: 71%;
+    }
 }
 
 .h-600 {
     height: 600px;
+}
+
+.btn-shop:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.font-size-md-10 {
+    @include media-breakpoint-up(md) {
+        font-size: map-get($font-size, 10);
+    }
+}
+
+.font-size-md-6 {
+    @include media-breakpoint-up(md) {
+        font-size: map-get($font-size, 6);
+    }
+}
+
+.bg-gray-4 {
+    background: map-get($grays, "4");
+}
+
+.sold-out {
+    background-color: rgba(0, 0, 0, 0.3);
 }

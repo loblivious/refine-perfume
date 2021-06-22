@@ -217,7 +217,10 @@
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-light-color;
+      color: white;
+      @include media-breakpoint-up(md) {
+        color: $navbar-light-color;
+      }
 
       &:hover,
       &:focus {

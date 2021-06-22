@@ -2,14 +2,15 @@ $font-family: 'SF Pro Text', '蘋方-繁', sans-serif;
 $font-base: 8px;
 $font-size: (
     1: $font-base,            // 8px
-    2: $font-base * 1.75,     // 14px
-    3: $font-base * 2,        // 16px
-    4: $font-base * 2.5,      // 20px
-    5: $font-base * 3,        // 24px
-    6: $font-base * 3.5,      // 28px
-    7: $font-base * 4,        // 32px
-    8: $font-base * 4.5,      // 36px
-    9: $font-base * 5        // 40px
+    2: $font-base * 1.5,      // 12px
+    3: $font-base * 1.75,     // 14px
+    4: $font-base * 2,        // 16px
+    5: $font-base * 2.5,      // 20px
+    6: $font-base * 3,        // 24px
+    7: $font-base * 3.5,      // 28px
+    8: $font-base * 4,        // 32px
+    9: $font-base * 4.5,      // 36px
+    10: $font-base * 5        // 40px
 );
 @each $key, $value in $font-size {
     .font-size-#{$key} {
@@ -47,5 +48,19 @@ $images: (
     .img-login-#{$key} {
         background: url("../images/login#{$value}.jpg") center center no-repeat;
         background-size: cover;
+    }
+}
+
+$gold: #AC8A46;
+$grays: (
+    "1": #818A91,
+    "2": #A5A5A5,
+    "3": #848484,
+    "4": #E0E0E0,
+    "5": #707070
+);
+@each $key, $value in $grays {
+    .gray-#{$key} {
+        color: $value;
     }
 }
