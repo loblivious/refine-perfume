@@ -284,7 +284,6 @@ $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) 
 // scss-docs-start position-map
 $position-values: (
   0: 0,
-  10: 10%,
   25: 25%,
   50: 50%,
   75: 75%,
@@ -305,7 +304,7 @@ $body-text-align:           null !default;
 //
 // Style anchor elements.
 
-$link-color:                              $secondary !default;
+$link-color:                                #848484 !default;
 $link-decoration:                         underline !default;
 $link-shade-percentage:                   20% !default;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;

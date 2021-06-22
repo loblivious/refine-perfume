@@ -364,10 +364,6 @@
   top: 0 !important;
 }
 
-.top-10 {
-  top: 10% !important;
-}
-
 .top-25 {
   top: 25% !important;
 }
@@ -386,10 +382,6 @@
 
 .bottom-0 {
   bottom: 0 !important;
-}
-
-.bottom-10 {
-  bottom: 10% !important;
 }
 
 .bottom-25 {
@@ -412,10 +404,6 @@
   left: 0 !important;
 }
 
-.start-10 {
-  left: 10% !important;
-}
-
 .start-25 {
   left: 25% !important;
 }
@@ -434,10 +422,6 @@
 
 .end-0 {
   right: 0 !important;
-}
-
-.end-10 {
-  right: 10% !important;
 }
 
 .end-25 {

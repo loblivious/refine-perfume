@@ -208,12 +208,12 @@ sup {
 }
 
 a {
-  color: #8D8D8D;
+  color: #848484;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #717171;
+  color: #6a6a6a;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4564,12 +4564,12 @@ fieldset:disabled .btn {
 
 .btn-link {
   font-weight: 400;
-  color: #8D8D8D;
+  color: #848484;
   text-decoration: underline;
 }
 
 .btn-link:hover {
-  color: #717171;
+  color: #6a6a6a;
 }
 
 .btn-link:disabled, .btn-link.disabled {
@@ -5092,7 +5092,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #8D8D8D;
+  color: #848484;
   text-decoration: none;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -5106,7 +5106,7 @@ fieldset:disabled .btn {
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: #717171;
+  color: #6a6a6a;
 }
 
 .nav-link.disabled {
@@ -5118,7 +5118,8 @@ fieldset:disabled .btn {
 .nav-tabs .nav-link {
   margin-bottom: -2px;
   background: none;
-  border: 2px solid transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
@@ -5991,7 +5992,7 @@ fieldset:disabled .btn {
 .page-link {
   position: relative;
   display: block;
-  color: #8D8D8D;
+  color: #848484;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -6010,14 +6011,14 @@ fieldset:disabled .btn {
 
 .page-link:hover {
   z-index: 2;
-  color: #717171;
+  color: #6a6a6a;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
 
 .page-link:focus {
   z-index: 3;
-  color: #717171;
+  color: #6a6a6a;
   background-color: #e9ecef;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(145, 96, 0, 0.25);
@@ -8208,10 +8209,6 @@ fieldset:disabled .btn {
   top: 0 !important;
 }
 
-.top-10 {
-  top: 10% !important;
-}
-
 .top-25 {
   top: 25% !important;
 }
@@ -8230,10 +8227,6 @@ fieldset:disabled .btn {
 
 .bottom-0 {
   bottom: 0 !important;
-}
-
-.bottom-10 {
-  bottom: 10% !important;
 }
 
 .bottom-25 {
@@ -8256,10 +8249,6 @@ fieldset:disabled .btn {
   left: 0 !important;
 }
 
-.start-10 {
-  left: 10% !important;
-}
-
 .start-25 {
   left: 25% !important;
 }
@@ -8278,10 +8267,6 @@ fieldset:disabled .btn {
 
 .end-0 {
   right: 0 !important;
-}
-
-.end-10 {
-  right: 10% !important;
 }
 
 .end-25 {
