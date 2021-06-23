@@ -1,0 +1,45 @@
+.pb-100 {
+    padding-bottom: 100%;
+}
+
+.bg-gray-5-md-white {
+    background: map-get($grays, "5");
+    @include media-breakpoint-up(md) {
+        background: white;
+    }
+}
+
+.font-size-md-6 {
+    @include media-breakpoint-up(md) {
+        font-size: map-get($font-size, 6);
+    }
+}
+
+.text-hover-underline {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.gold {
+    color: $gold;
+}
+
+.item-card:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease 0s;
+    @include media-breakpoint-up(md) {
+        transform: scale(1.1);
+    }
+}
+
+.img-index-6 {
+    background-position: center 100%;
+}
+
+.position-md-absolute {
+    @include media-breakpoint-up(md) {
+        position: absolute;
+    }
+}
