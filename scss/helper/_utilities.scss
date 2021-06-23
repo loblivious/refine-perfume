@@ -1,0 +1,109 @@
+.pb-100 {
+    padding-bottom: 100%;
+}
+
+.bg-gray-5-md-white {
+    background: map-get($grays, "5");
+    @include media-breakpoint-up(md) {
+        background: white;
+    }
+}
+
+.font-size-md-6 {
+    @include media-breakpoint-up(md) {
+        font-size: map-get($font-size, 6);
+    }
+}
+
+.text-hover-underline {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.gold {
+    color: $gold;
+}
+
+.item-card:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease 0s;
+    @include media-breakpoint-up(md) {
+        transform: scale(1.1);
+    }
+}
+
+.main-banner {
+    background: url("../images/index1.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.h-480-md-870 {
+    height: 480px;
+    @include media-breakpoint-up(md) {
+        height: 870px;
+    }
+}
+
+.img-index-5 {
+    padding-bottom: 200%;
+}
+
+.img-index-9 {
+    padding-bottom: 150%;
+    @include media-breakpoint-up(md) {
+        padding-bottom: 71%;
+    }
+}
+
+.h-600 {
+    height: 600px;
+}
+
+.btn-shop:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.font-size-md-10 {
+    @include media-breakpoint-up(md) {
+        font-size: map-get($font-size, 10);
+    }
+}
+
+.bg-gray-4 {
+    background: map-get($grays, "4");
+}
+
+.sold-out {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.img-index-6 {
+    background-position: center 100%;
+}
+
+.position-md-absolute {
+    @include media-breakpoint-up(md) {
+        position: absolute;
+    }
+}
+
+.border-bot-gray-1 {
+    border-bottom: 1px solid map-get($grays, "1");
+}
+
+.img-product-1 {
+    padding-bottom: 150%;
+    @include media-breakpoint-up(md) {
+        padding-bottom: 63%;
+    }
+}
+
+.margin-2-md-0 {
+    margin: 2px 0;
+    @include media-breakpoint-up(md) {
+        margin-bottom: 0;
+    }
+}
